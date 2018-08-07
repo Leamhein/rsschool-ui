@@ -7,6 +7,7 @@ import Schedule from '../Schedule';
 import Home from '../Home';
 import Layout from '../Layout';
 import Profile from '../Profile';
+import BatchUpdate from '../Batch_update';
 
 const App = (): JSX.Element => {
     return (
@@ -20,6 +21,7 @@ const App = (): JSX.Element => {
                 <Route exact={true} path="/course/:id/info" component={CourseInfo} />
 
                 <Route exact={true} path="/profile" component={Profile} />
+                <Route exact={true} path="/batch-update" component={BatchUpdate} />
                 <Route exact={true} path="/admin" component={Admin} />
             </Layout>
         </Switch>
