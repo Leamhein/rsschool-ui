@@ -7,7 +7,7 @@ import Schedule from '../Schedule';
 import Home from '../Home';
 import Layout from '../Layout';
 import Profile from '../Profile';
-import BatchUpdate from '../Batch_update';
+import BatchUpdate from '../BatchUpdate';
 
 const App = (): JSX.Element => {
     return (
